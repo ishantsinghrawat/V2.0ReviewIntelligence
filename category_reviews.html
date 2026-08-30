@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Category Reviews · Customer Voice</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header>
+  <div class="wrap brand">
+    <div>
+      <h1>Customer Voice · Category Reviews</h1>
+      <span>Explore every review together by issue category</span>
+    </div>
+    <span id="reviewCount">Loading…</span>
+  </div>
+</header>
+<nav class="subnav"><div class="wrap"><a href="index.html">Dashboard</a><a class="active" href="category_reviews.html">Category Reviews</a><a href="alerts.html">Daily Alerts</a></div></nav>
+<main class="wrap">
+  <section class="section card">
+    <div class="section-head">
+      <div><h2>Category overview</h2><div class="helper">Click a category to show all reviews assigned to it. Multi-label matches are included.</div></div>
+      <button id="clearCategory" class="ghost-button" type="button">Show all categories</button>
+    </div>
+    <div id="categoryCards" class="category-grid"></div>
+  </section>
+
+  <section class="section card">
+    <div class="section-head">
+      <div><h2 id="resultsTitle">All reviews by category</h2><div id="resultsMeta" class="helper"></div></div>
+      <button id="downloadCsv" class="button" type="button">Download filtered CSV</button>
+    </div>
+    <div class="filters review-filters">
+      <select id="category"><option value="">All categories</option></select>
+      <select id="source"><option value="">All stores</option></select>
+      <select id="version"><option value="">All versions</option></select>
+      <select id="sentiment"><option value="">All sentiment</option><option value="Negative">Negative</option><option value="Neutral">Neutral</option><option value="Positive">Positive</option></select>
+      <input id="search" type="search" placeholder="Search review text…" autocomplete="off">
+    </div>
+    <div id="groupedReviews"></div>
+  </section>
+</main>
+<script src="assets/js/category_reviews.js"></script>
+</body>
+</html>
