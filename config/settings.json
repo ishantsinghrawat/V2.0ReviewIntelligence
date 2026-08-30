@@ -1,0 +1,34 @@
+{
+  "google_play": {"package": "com.mcdonalds.superapp", "country": "ca", "lang": "en"},
+  "app_store": {"enabled": true, "app_id": 375695000, "country": "ca", "lang": "en", "max_pages": 10},
+  "dashboard_days": 30,
+  "history_days": 180,
+  "nlp": {
+    "sentiment_model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "zero_shot_model": "facebook/bart-large-mnli",
+    "multi_label_threshold": 0.35,
+    "high_confidence": 0.75,
+    "medium_confidence": 0.50
+  },
+  "alerts": {
+    "min_negative_reviews": 3,
+    "ratio_threshold": 1.75,
+    "baseline_days": 7,
+    "severity_issue_threshold": 65
+  },
+  "categories": [
+    "Authentication/Login",
+    "Performance/Speed",
+    "UI/UX",
+    "Crashes/Bugs",
+    "Payments",
+    "Rewards/Offers",
+    "Feature Requests",
+    "Customer Support",
+    "Location/Geolocation",
+    "Refunds",
+    "Delivery",
+    "McValue",
+    "Monopoly"
+  ]
+}
