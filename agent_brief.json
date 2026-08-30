@@ -1,0 +1,77 @@
+{
+  "mode": "deterministic",
+  "overall_health": "Stable / no threshold alert",
+  "summary": "No category crossed the configured anomaly threshold today.",
+  "key_findings": [
+    "No category crossed the configured anomaly threshold today."
+  ],
+  "degrading_releases": [
+    {
+      "source": "App Store",
+      "version": "26.61.2",
+      "reviews": 95,
+      "negative_pct": 96.8,
+      "avg_rating": 1.28,
+      "health_score": 7,
+      "status": "Degrading"
+    },
+    {
+      "source": "Google Play",
+      "version": "26.61.3",
+      "reviews": 84,
+      "negative_pct": 89.3,
+      "avg_rating": 1.67,
+      "health_score": 15,
+      "status": "Degrading"
+    },
+    {
+      "source": "Google Play",
+      "version": "26.33.4",
+      "reviews": 25,
+      "negative_pct": 72.0,
+      "avg_rating": 2.16,
+      "health_score": 30,
+      "status": "Degrading"
+    }
+  ],
+  "emerging_issues": [
+    {
+      "topic": "Every Time",
+      "mentions": 12,
+      "top_source": "App Store",
+      "top_version": "26.61.2",
+      "examples": [
+        "So painfully slow. And recently I ordered delivery like a month ago and I can't order through the app again now because every time I try it says \"you have an order in progress\" then I hit \"track order\" and it brings me t",
+        "crashes once before it works, every time. also no way to give feedback on orders if you accidentally close out. biggest issue for me is the pin on the map is almost never in the right area which confuses drivers.",
+        "App is rediculously slow. Having to acknowledge not to text and drive every time is annoying, no other ap does this."
+      ]
+    },
+    {
+      "topic": "Doesn'T Work",
+      "mentions": 9,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "really slow and clunky and the checkout button doesn't work for no reason",
+        "POS app... not point of sale..... now sends email to login, but doesn't work... 650mb of storage used... POS",
+        "the app doesn't work. I have an order from two weeks ago stuck in my bag, I can't place an order because it shows as a pending order. very frustrating. I can order through Door Dash app"
+      ]
+    },
+    {
+      "topic": "Drive Through",
+      "mentions": 6,
+      "top_source": "App Store",
+      "top_version": "26.61.2",
+      "examples": [
+        "why can't I order in the drive through and have to use an app that crashed twice",
+        "links don't work(order history), advertising interrupts orders. slow to use when at a drive through. in store kiosks also suck. 60 clicks to get a burger. another 10 to pay. streamline this.",
+        "i like to select my items on way to work, but app wont let me. it forces you to choose location 1st BUT wont let me choose location because it’s not nearby. At least let me select my items 1st so i dont have to try and r"
+      ]
+    }
+  ],
+  "recommended_actions": [
+    "Investigate any triggered category against the affected app version and platform.",
+    "Review the linked customer comments before escalating a defect.",
+    "Validate suspected regressions with telemetry and targeted QA regression tests."
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "review": "My app logged me off and would not get my password link to my email. Tech support can't fix it. Lost all my points eventually. Very disappointed.",
+    "category": "Crashes/Bugs",
+    "sentiment_std": "Negative",
+    "rating": 1,
+    "review_date": "2026-08-28",
+    "source": "Google Play",
+    "app_version": "26.61.3",
+    "review_id": "4dd60039b170701cb63190d1",
+    "primary_category": "Crashes/Bugs",
+    "category_score": null,
+    "sentiment_score": null,
+    "classification_confidence": "Legacy",
+    "issues": [
+      {
+        "label": "Crashes/Bugs",
+        "score": null
+      }
+    ],
+    "user_name": null,
+    "review_title": null,
+    "developer_response": null,
+    "thumbs_up": null,
+    "country_code": null,
+    "language_code": null
+  },
+  {
+    "review": "Doesn't ever work right in any sort of way, do not bother with this, and unless you're buying for 3+ people constantly you're never getting enough points to redeem for anything",
+    "category": "Refunds",
+    "sentiment_std": "Negative",
+    "rating": 1,
+    "review_date": "2026-08-28",
+    "source": "Google Play",
+    "app_version": "26.61.3",
+    "review_id": "8d75f48b25f849d25feac8a0",
+    "primary_category": "Refunds",
+    "category_score": null,
+    "sentiment_score": null,
+    "classification_confidence": "Legacy",
+    "issues": [
+      {
+        "label": "Refunds",
+        "score": null
+      }
+    ],
+    "user_name": null,
+    "review_title": null,
+    "developer_response": null,
+    "thumbs_up": null,
+    "country_code": null,
+    "language_code": null
+  }
+]

@@ -1,0 +1,243 @@
+{
+  "generated_for": "2026-08-28",
+  "kpis": {
+    "reviews": 228,
+    "negative_pct": 91.2,
+    "avg_rating": 1.54,
+    "alerts": 0
+  },
+  "anomalies": [
+    {
+      "category": "Refunds",
+      "current": 1,
+      "baseline_daily_avg": 0.0,
+      "ratio": 2.0,
+      "severity": 49,
+      "triggered": false
+    },
+    {
+      "category": "Crashes/Bugs",
+      "current": 1,
+      "baseline_daily_avg": 2.14,
+      "ratio": 0.47,
+      "severity": 24,
+      "triggered": false
+    },
+    {
+      "category": "Authentication/Login",
+      "current": 0,
+      "baseline_daily_avg": 0.71,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Performance/Speed",
+      "current": 0,
+      "baseline_daily_avg": 1.0,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "UI/UX",
+      "current": 0,
+      "baseline_daily_avg": 0.86,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Payments",
+      "current": 0,
+      "baseline_daily_avg": 0.71,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Rewards/Offers",
+      "current": 0,
+      "baseline_daily_avg": 0.43,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Feature Requests",
+      "current": 0,
+      "baseline_daily_avg": 0.0,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Customer Support",
+      "current": 0,
+      "baseline_daily_avg": 0.0,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Location/Geolocation",
+      "current": 0,
+      "baseline_daily_avg": 0.43,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Delivery",
+      "current": 0,
+      "baseline_daily_avg": 0.71,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "McValue",
+      "current": 0,
+      "baseline_daily_avg": 0.14,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    },
+    {
+      "category": "Monopoly",
+      "current": 0,
+      "baseline_daily_avg": 0.0,
+      "ratio": 0.0,
+      "severity": 0,
+      "triggered": false
+    }
+  ],
+  "release_health": [
+    {
+      "source": "App Store",
+      "version": "26.61.2",
+      "reviews": 95,
+      "negative_pct": 96.8,
+      "avg_rating": 1.28,
+      "health_score": 7,
+      "status": "Degrading"
+    },
+    {
+      "source": "Google Play",
+      "version": "26.61.3",
+      "reviews": 84,
+      "negative_pct": 89.3,
+      "avg_rating": 1.67,
+      "health_score": 15,
+      "status": "Degrading"
+    },
+    {
+      "source": "Google Play",
+      "version": "26.33.4",
+      "reviews": 25,
+      "negative_pct": 72.0,
+      "avg_rating": 2.16,
+      "health_score": 30,
+      "status": "Degrading"
+    },
+    {
+      "source": "Google Play",
+      "version": "25.111.0",
+      "reviews": 2,
+      "negative_pct": 100.0,
+      "avg_rating": 1.5,
+      "health_score": 7,
+      "status": "Degrading"
+    }
+  ],
+  "emerging_issues": [
+    {
+      "topic": "Every Time",
+      "mentions": 12,
+      "top_source": "App Store",
+      "top_version": "26.61.2",
+      "examples": [
+        "So painfully slow. And recently I ordered delivery like a month ago and I can't order through the app again now because every time I try it says \"you have an order in progress\" then I hit \"track order\" and it brings me t",
+        "crashes once before it works, every time. also no way to give feedback on orders if you accidentally close out. biggest issue for me is the pin on the map is almost never in the right area which confuses drivers.",
+        "App is rediculously slow. Having to acknowledge not to text and drive every time is annoying, no other ap does this."
+      ]
+    },
+    {
+      "topic": "Doesn'T Work",
+      "mentions": 9,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "really slow and clunky and the checkout button doesn't work for no reason",
+        "POS app... not point of sale..... now sends email to login, but doesn't work... 650mb of storage used... POS",
+        "the app doesn't work. I have an order from two weeks ago stuck in my bag, I can't place an order because it shows as a pending order. very frustrating. I can order through Door Dash app"
+      ]
+    },
+    {
+      "topic": "Drive Through",
+      "mentions": 6,
+      "top_source": "App Store",
+      "top_version": "26.61.2",
+      "examples": [
+        "why can't I order in the drive through and have to use an app that crashed twice",
+        "links don't work(order history), advertising interrupts orders. slow to use when at a drive through. in store kiosks also suck. 60 clicks to get a burger. another 10 to pay. streamline this.",
+        "i like to select my items on way to work, but app wont let me. it forces you to choose location 1st BUT wont let me choose location because it’s not nearby. At least let me select my items 1st so i dont have to try and r"
+      ]
+    },
+    {
+      "topic": "Can'T Order",
+      "mentions": 5,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "my delivery has been tracking even though it had been delivered weeks ago. Can't order more",
+        "So painfully slow. And recently I ordered delivery like a month ago and I can't order through the app again now because every time I try it says \"you have an order in progress\" then I hit \"track order\" and it brings me t",
+        "why can't I order in the drive through and have to use an app that crashed twice"
+      ]
+    },
+    {
+      "topic": "Credit Card",
+      "mentions": 5,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "Update: 08/24/26 Now I tried to login numerous times, but unfortunately the unique login code is wrong. I've discovered recently that despite my bank card info is accurate and correct, I wasn't able to pay for any order,",
+        "Regularly doesn't work even with a credit card entered... every other food app works well when trying to get points or claiming rewards but this app is pure trash...to the point where I avoid McDonald's of late so I don'",
+        "after I added a new credit card. I cannot place orders from the app and pay anymore. For a such a big company, how stupid can this be? I tried every single troubleshooting possible. removing and adding, uninstall and ins"
+      ]
+    },
+    {
+      "topic": "Drive Thru",
+      "mentions": 5,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "Requires that you have a data plan. Can't collect points since the code/pin changes everytime you open the app, so the number will be different once you get to the drive thru. Ordered online and paid, but they didn't rec",
+        "on the most up-to-date version of the app (26.61.3) August 17 2026 after placing order and telling drive-thru my mobile order number, the app greys-out and gets stuck in an infinite 'loading' loop.",
+        "Yet again forced to login to app while attempting to get code while placing order. Had to order without code = no points. Not exactly drive thru friendly! When I was able to access email took several attempts to get logi"
+      ]
+    },
+    {
+      "topic": "Never Works",
+      "mentions": 5,
+      "top_source": "App Store",
+      "top_version": "26.61.2",
+      "examples": [
+        "The app never works. I go to check out and it brings me back to the order page. When I finally get to checkout, it won't let me pay and I have to go inside the restaurant. Edit: why is it now telling me that my total nee",
+        "Login never works",
+        "There seems to be an issue with your app which is very frustrating. Every time I go to redeem an award it says my code is invalid. They try at the cash and it doesn’t work. I even spoke to an employee that told me she ge"
+      ]
+    },
+    {
+      "topic": "Log Back",
+      "mentions": 4,
+      "top_source": "Google Play",
+      "top_version": "26.61.3",
+      "examples": [
+        "I have had this app for awhile and it seems like almost every week I have to log in to get back in my account and its frustrating because I usually get something in the morning near the McDonald's close to my work .And a",
+        "the app one day decided it wouldnt let me log back in. the login with your email is busted and with no other option. like USE A PASSWORD?. ive just stopped eating at mcdonalds as a result because im petty",
+        "Improve your app. For a multi million dollar corporation, the app is sub par. McDonald's needs a better IT department. It constantly logs you out. The procedure to log back in is awful and takes multiple attempts to get "
+      ]
+    }
+  ]
+}
